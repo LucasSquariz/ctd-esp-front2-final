@@ -39,7 +39,7 @@ function Cita() {
         aria-label={valorInput ? "Obter Cita" : "Obter cita aleatoria"}
         onClick={onClickObterCita}
       >
-        {valorInput ? "Obtener Cita" : "Obtener cita aleatoria"}
+        {valorInput ? "Obter Cita" : "Obter cita aleatoria"}
       </Botao>
       <Botao aria-label="Apagar" onClick={onClickApagar} secondary={true}>
         Apagar
